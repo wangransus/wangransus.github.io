@@ -17,10 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-王然，上海体育学院竞技运动学院教授，博士生导师，上海市海外高层次人才。研究工作先后受到美国体能协会国际合作计划、国家重点研发计划和上海市科委科研计划资助。{% <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> %}
+王然，上海体育学院竞技运动学院教授，博士生导师，上海市海外高层次人才。研究工作先后受到美国体能协会国际合作计划、国家重点研发计划和上海市科委科研计划资助。
+<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 
-
-我的研究领域包括
+主要研究领域
 - 运动训练生理应激与适应
 - 运动表现测试与评估方法
 
