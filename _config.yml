@@ -27,7 +27,7 @@ author:
   location         : "上海"
   employer         : #"上海体育学院"
   pubmed           : 
-  googlescholar    : #"https://scholar.google.com/citations?user=WMkMTb4AAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl"
   email            : "wangran@sus.edu.cn"
   researchgate     : #"https://www.researchgate.net/profile/Jian-Tang-53"
   uri              : 
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : #"https://orcid.org/0000-0001-9658-209X"
+  orcid            : "https://orcid.org/0000-0002-7148-0764"
   pinterest        :
   soundcloud       :
   stackoverflow    :
