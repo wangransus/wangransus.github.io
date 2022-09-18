@@ -21,10 +21,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "王然"
+  name             : "王然 Ran Wang"
   avatar           : "images/wangran.png"
   bio              : "上海体育学院"
-  location         : "上海"
+  location         : "中国·上海"
   employer         : #"上海体育学院"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl"
