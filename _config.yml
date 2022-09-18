@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "上海体育学院王然"
-description              : "运动科学·表现分析·体能训练"
+description              : "运动科学·体能训练"
 repository               : "wangransus/wangransus.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "王然 (Ran Wang)"
+  name             : "王  然"
   avatar           : "images/wangran.png"
-  bio              : "上海体育学院·竞技运动学院"
+  bio              : "上海体育学院"
   location         : "中国·上海"
   employer         : #"上海体育学院"
   pubmed           : 
