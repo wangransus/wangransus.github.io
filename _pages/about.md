@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-王然，博士，上海体育学院竞技运动学院教授，博士生导师，荣获“上海市海外高层次人才”称号，兼任中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师、全国体育运动学校联合会特聘讲师。先后于北京体育大学和美国中佛罗里达大学获得运动人体科学学士和硕士学位以及体能训练博士学位，研究领域为体能训练生理应激与适应、运动表现测试与评估方法。研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，研究成果先后发表于Journal of Strength & Conditioning Research、Journal of Sports Science and Medicine、Journal of the American College of Nutrition、Sports Biomechanics、《体育与科学》等国内外学术期刊<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+王然，博士，上海体育学院竞技运动学院教授，博士生导师，荣获“上海市海外高层次人才”称号，兼任中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师、全国体育运动学校联合会特聘讲师。先后于北京体育大学和美国中佛罗里达大学获得运动人体科学学士和硕士学位以及体能训练博士学位，研究领域为体能训练生理应激与适应、运动表现测试与评估方法。研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，研究成果先后发表于Journal of Strength & Conditioning Research、Journal of Sports Science and Medicine、Journal of the American College of Nutrition、Sports Biomechanics、《体育与科学》等国内外学术期刊 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
 
 <span class='anchor' id='-xl'></span>
 
 # 🎓 教育背景
-- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="30pt"></a> 中佛罗里达大学 运动生理学专业
-- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业
-- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业
+- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="30pt"></a> 中佛罗里达大学 运动生理学专业 体能训练方向
+- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业 运动训练监控方向
+- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业 运动机能评定方向
 
 <span class='anchor' id='-lwzl'></span>
 
