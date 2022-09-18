@@ -30,9 +30,9 @@ redirect_from:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
-- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 美国中佛罗里达大学 运动生理学专业
-- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 北京体育大学 运动人体科学专业
-- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 北京体育大学 运动人体科学专业
+- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="23pt"></a> 美国中佛罗里达大学 运动生理学专业
+- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.jpg" width="20pt"></a> 北京体育大学 运动人体科学专业
+- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.jpg" width="20pt"></a> 北京体育大学 运动人体科学专业
 
 <span class='anchor' id='-lwzl'></span>
 
