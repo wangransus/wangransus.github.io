@@ -17,26 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我将博士毕业于湖北武汉的 华中科技大学 机械科学与工程学院，我的导师是康宜华教授。本科毕业于四川成都的 四川大学 制造科学与工程学院。包括合著，我已经发表15+篇学术论文
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+王然，上海体育学院竞技运动学院教授，博士生导师，上海市海外高层次人才。研究工作先后受到美国体能协会国际合作计划、国家重点研发计划和上海市科委科研计划资助。
+ <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
 我的研究领域包括
-- 仪器仪表
-- 机械工程
-- 电磁无损检测
-- 漏磁检测
-- 涡流检测
-- 磁传感器
-- 无损检测装备开发
+- 运动训练生理应激与适应
+- 运动表现测试与评估方法
+
   
 
 
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
-- *2016.06 - 2022.12*, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 华中科技大学 机械科学与工程学院, 湖北武汉, 推免直博 
-- *2012.09 - 2016.06*, <a href="https://www.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 四川大学 制造科学与工程学院, 四川成都, 本科
- 
+- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 美国中佛罗里达大学 运动生理学专业
+- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 北京体育大学 运动人体科学专业
+- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> 北京体育大学 运动人体科学专业
+
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利
