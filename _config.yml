@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "王然"
+title                    : "上海体育学院王然"
 description              : "运动表现分析"
 repository               : "wangransus/wangransus.github.io"
 google_scholar_stats_use_cdn : false
