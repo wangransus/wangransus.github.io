@@ -19,7 +19,7 @@ redirect_from:
 
 - 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授及博士生导师，并荣获“上海市海外高层次人才”称号。我的主要社会兼职包括中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师等。
 
-- 我的研究兴趣主要集中在运动训练学（体能训练生理应激与适应、运动表现测试与评估方法）、运动心理学（教练执教科学）和运动生物力学（动作技术分析）领域，研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，研究成果发表于Journal of Strength & Conditioning Research、Journal of Sports Science and Medicine、Journal of the American College of Nutrition、Sports Biomechanics、《体育与科学》等国内外学术期刊 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+- 我的研究兴趣主要集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等），研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，研究成果发表于Journal of Strength & Conditioning Research、Journal of Sports Science and Medicine、Journal of the American College of Nutrition、Sports Biomechanics、《体育与科学》等国内外学术期刊 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
 
 <span class='anchor' id='-xl'></span>
