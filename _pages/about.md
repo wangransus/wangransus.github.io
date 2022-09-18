@@ -21,6 +21,10 @@ redirect_from:
 
 - 我的研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，主要集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等），研究成果发表于JSCR、JSSM、JACN、Sports Biomechanics、《体育与科学》<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 等国内外学术期刊。
 
+<span class='anchor' id='-xshy'></span>
+
+# 🔥 最新消息
+- *2022.09*：最新消息 
 
 <span class='anchor' id='-xl'></span>
 
@@ -68,7 +72,6 @@ redirect_from:
 -	Shenghan Wang, Bo Feng, `Jian Tang`, Yanting Chen, Yihua Kang. A Novel AC-MFL Probe Based on the Parallel Cables Magnetizing Technique. *Journal of Nondestructive Evaluation*, 2022, 41(2): 39. (JCR:Q2；IF:1.995)  
 [[网页]](https://dx.doi.org/10.1007/s10921-022-00872-3) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/WangS-2022-A%20Novel%20AC-MFL%20Probe%20Based%20on%20the%20Parallel%20Cables%20Magnetizing%20Technique.pdf) [[下载]](/pdf/WangS-2022-A%20Novel%20AC-MFL%20Probe%20Based%20on%20the%20Parallel%20Cables%20Magnetizing%20Technique.pdf)
 
-
 ### 中文
 ---
 
@@ -92,15 +95,7 @@ redirect_from:
 - *2017年* 获得 美国体能协会NSCA `Minority Scholarship`  
 - *2016年* 获得 美国体能协会NSCA `Challenge Scholarship`  
 - *2014年* 获得 国家留学基金委员会 `国家公派留学奖学金`
-- *2013年* 获得 国家教育部 `研究生国家奖学金`
-  
-
-<span class='anchor' id='-xshy'></span>
-
-# 🏛️ 学术会议
-- *2021.10*, 全国电磁无损检测技术研讨会 暨 中国机械工程学会无损检测分会电磁专业技术大会第十一届第四次全体会议, 陕西西安, 受邀报告
-- *2019.09*, 第十九届国际应用电磁学与力学会议 (ISEM 2019), 江苏南京, 海报
-- *2017.10*, 第六届中国国际管道会议 (CIPC 2017), 河北廊坊
+- *2013年* 获得 国家教育部 `研究生国家奖学金` 
 
 <span class='anchor' id='-gzsx'></span>
 
