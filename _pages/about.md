@@ -23,9 +23,9 @@ redirect_from:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 教育背景
-- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="20pt"></a> 中佛罗里达大学 运动生理学专业
-- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="20pt"></a> 北京体育大学 运动人体科学专业
-- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="20pt"></a> 北京体育大学 运动人体科学专业
+- *2013.08 - 2017.05*, <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="30pt"></a> 中佛罗里达大学 运动生理学专业
+- *2010.09 - 2013.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业
+- *2006.09 - 2010.06*, <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="30pt"></a> 北京体育大学 运动人体科学专业
 
 <span class='anchor' id='-lwzl'></span>
 
