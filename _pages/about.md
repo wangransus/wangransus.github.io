@@ -93,7 +93,7 @@ redirect_from:
 - *2019.01* 获得 上海市教育委员会 `上海市海外高层次人才`
 - *2017.06* 获得 美国体能协会NSCA `Minority Scholarship`  
 - *2016.06* 获得 美国体能协会NSCA `Challenge Scholarship`  
-- *2014.06* 获得 美国体能协会NSCA `Minority Scholarship
+- *2014.06* 获得 美国体能协会NSCA `Minority Scholarship`
 - *2014.05* 获得 国家留学基金委员会 `国家公派留学奖学金`
 - *2012.11* 获得 国家教育部 `硕士研究生国家奖学金` 
 - *2011.11* 获得 亚太体育科学大会 `Young Graduate Scholars Award`
