@@ -24,7 +24,7 @@ redirect_from:
 <span class='anchor' id='-xshy'></span>
 
 # 🔥 最新消息
-- *2022.09*：最新消息 
+- *2022.09*：No news is good news! 
 
 <span class='anchor' id='-xl'></span>
 
