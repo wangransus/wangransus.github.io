@@ -1,19 +1,19 @@
 # main links links
 main:
   - title: "个人简介"
-    url: "/#about-me"
-
+    url: "/#-grjj"
+   
+  - title: "最新消息"
+    url: "/#-zxxx"
+   
   - title: "教育背景"
-    url: "/#-xl"
+    url: "/#-jybj"
 
-  - title: "发表论文"
-    url: "/#-lwzl"
+  - title: "科研成果"
+    url: "/#-kycg"
 
-  - title: "荣誉奖项"
-    url: "/#-ryjx"
+  - title: "荣誉奖励"
+    url: "/#-ryjl"
 
-  - title: "学术会议"
-    url: "/#-xshy"
-
-  - title: "小组成员"
-    url: "/#-gzsx"
+  - title: "研究团队"
+    url: "/#-yjtd"
