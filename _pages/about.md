@@ -37,8 +37,6 @@ redirect_from:
 
 # 📝 科研成果
 
-### 英文论文
----
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -57,8 +55,6 @@ redirect_from:
 </div>
 </div>
 
-### 中文论文
----
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《成都体育学院学报》.2022</div><img src='images/2021成体学报.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
  
@@ -77,11 +73,12 @@ redirect_from:
 </div>
 </div>
 
-### 科研项目
+<span class='anchor' id='-kyxm'></span>
+# 📊 科研项目
 ---
-- 科技助力大球类项目运动表现提升关键技术研究，上海市科学技术委员会，50万元，主持
-- 青少年抗阻训练后肌肉力量改善的生理适应机制，上海市科学技术委员会，50万元，主持
 - 冬季竞速类和团体球类项目专项国际化训练平台关键技术研究与应用，国家科技部，362万元，主持
+- 科技助力大球类项目运动表现提升关键技术研究，上海市科学技术委员会，50万元，主持
+- 青少年抗阻训练后肌肉力量改善的生理适应机制，上海市科学技术委员会，20万元，主持 
 
 <span class='anchor' id='-ryjl'></span>
 
