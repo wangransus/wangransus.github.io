@@ -15,25 +15,26 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='grjj'></span>
 
+# 👋🏼 个人简介
 - 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授及博士生导师，荣获“上海市海外高层次人才”称号。主要社会兼职包括中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师等。
 
 - 我的研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，主要集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等），研究成果发表于JSCR、JSSM、JACN、Sports Biomechanics、《体育与科学》<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 等国内外学术期刊。
 
-<span class='anchor' id='-xshy'></span>
+<span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
 - *2022.09*：No news is good news! 
 
-<span class='anchor' id='-xl'></span>
+<span class='anchor' id='-jybj'></span>
 
 # 🎓 教育背景
 - *2013.08 - 2017.05*：<a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="25pt"></a> 中佛罗里达大学 运动生理学博士 体能训练方向（导师：Jay Hoffman、David Fukuda）
 - *2010.09 - 2013.06*：<a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> 北京体育大学 运动人体科学硕士 运动训练监控方向（导师：胡扬、邱俊强）
 - *2006.09 - 2010.06*：<a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> 北京体育大学 运动人体科学学士 运动机能评定方向（导师：李燕春）
 
-<span class='anchor' id='-lwzl'></span>
+<span class='anchor' id='-kycg'></span>
 
 # 📝 科研成果
 
@@ -72,7 +73,7 @@ redirect_from:
 - 青少年抗阻训练后肌肉力量改善的生理适应机制，上海市科学技术委员会，50万元，主持
 - 冬季竞速类和团体球类项目专项国际化训练平台关键技术研究与应用，国家科技部，362万元，主持
 
-<span class='anchor' id='-ryjx'></span>
+<span class='anchor' id='-ryjl'></span>
 
 # 🏅 荣誉奖励
 - *2019年* 获得 上海市教育委员会 `上海市海外高层次人才`
@@ -81,7 +82,7 @@ redirect_from:
 - *2014年* 获得 国家留学基金委员会 `国家公派留学奖学金`
 - *2013年* 获得 国家教育部 `研究生国家奖学金` 
 
-<span class='anchor' id='-gzsx'></span>
+<span class='anchor' id='-yjtd'></span>
 
 # 💻 研究团队
 - *在读博士*：唐文静、萧正邦、项晓琰、邱翰、查晓璐
