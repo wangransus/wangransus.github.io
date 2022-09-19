@@ -59,7 +59,7 @@ redirect_from:
 
 ### 中文论文
 ---
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">成都体育学院学报. 2022</div><img src='images/2021成体学报.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《成都体育学院学报》.2022</div><img src='images/2021成体学报.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
  
 -   路恒, 许贻林, `王然*`. 等长大腿中部拉测试在下肢肌肉力量诊断中的应用[J]. *成都体育学院学报*, 2022, 48(01): 129-142. (通讯作者；CSSCI期刊)
@@ -68,7 +68,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">体育与科学. 2020</div><img src='images/2020体育与科学.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育与科学》.2020</div><img src='images/2020体育与科学.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 - 	路恒, 许贻林, `王然*`. 影响等长大腿中部拉测试信效度的方法学因素综述[J]. *体育与科学*, 2020, 41(06): 75-87. (通讯作者；CSSCI期刊)  
