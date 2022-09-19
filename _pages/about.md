@@ -15,7 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='grjj'></span>
 
 # 👋🏼 个人简介
 - 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授及博士生导师，荣获“上海市海外高层次人才”称号。主要社会兼职包括中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师等。
