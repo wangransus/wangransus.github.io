@@ -75,11 +75,11 @@ redirect_from:
 ### 中文
 ---
 -   路恒, 许贻林, `王然`. 等长大腿中部拉测试在下肢肌肉力量诊断中的应用[J]. *成都体育学院学报*, 2022, 48(01): 129-142. (通讯作者；CSSCI期刊)
-[[网页]](https://dx.doi.org/10.15942/j.jcsu.2022.01.021) [下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022%E6%88%90%E4%BD%93%E5%AD%A6%E6%8A%A5.pdf) 
+[[网页]](https://dx.doi.org/10.15942/j.jcsu.2022.01.021) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022%E6%88%90%E4%BD%93%E5%AD%A6%E6%8A%A5.pdf) 
 
 
 - 	路恒, 许贻林, `王然`. 影响等长大腿中部拉测试信效度的方法学因素综述[J]. *体育与科学*, 2020, 41(06): 75-87. (通讯作者；CSSCI期刊)  
-[[网页]](https://dx.doi.org/10.13598/j.issn1004-4590.2020.06.012) [[下载](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020%E4%BD%93%E8%82%B2%E4%B8%8E%E7%A7%91%E5%AD%A6.pdf)
+[[网页]](https://dx.doi.org/10.13598/j.issn1004-4590.2020.06.012) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020%E4%BD%93%E8%82%B2%E4%B8%8E%E7%A7%91%E5%AD%A6.pdf)
 
 ### 科研项目
 ---
