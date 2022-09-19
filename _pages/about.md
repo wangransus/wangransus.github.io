@@ -17,9 +17,28 @@ redirect_from:
 <span class='anchor' id='-grjj'></span>
 
 # 👋🏼 个人简介
-- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授及博士生导师，荣获“上海市海外高层次人才”称号。主要社会兼职包括中国体育科学学会体能训练分会委员、上海市高校青年教师协会常务理事、上海市青少年体育协会体适能分会秘书长、上海市体育科学学会体能训练分会秘书长，国家应急管理部重点实验室特聘专家、国家体育总局教练员学院特聘讲师等。
+- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授及博士生导师，荣获“上海市海外高层次人才”称号。
+- 主要社会兼职包括：
+  - 中国体育科学学会体能训练分会委员
+  - 上海市高校青年教师协会常务理事
+  - 上海市青少年体育协会体适能分会秘书长
+  - 上海市体育科学学会体能训练分会秘书长
+  - 国家应急管理部重点实验室特聘专家
+  - 国家体育总局教练员学院特聘讲师
 
-- 我的研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，主要集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等），研究成果发表于JSCR、JSSM、JACN、Sports Biomechanics、《体育与科学》<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 等国内外学术期刊。
+- 我的研究工作先后受到美国体能协会国际合作计划，国家重点研发计划和上海市科委科研计划资助，主要集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）
+- 研究成果<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 发表于国内外学术期刊：
+  - Journal of Strength and Conditioning Research
+  - Journal of Sports Science and Medicine
+  - Journal of American College of Nutrition
+  - Journal of Sport Engineering and Technology
+  - Sports Biomechanics
+  - 《成都体育学院学报》
+  - 《体育与科学》
+
+
+
+
 
 <span class='anchor' id='-zxxx'></span>
 
