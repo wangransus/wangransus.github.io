@@ -45,7 +45,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. 
+- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) 
 [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
 
 </div>
@@ -54,7 +54,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Biomech. 2020</div><img src='images/2020SportsBiomechanics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451.  
+-	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊)  
 [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
 
 </div>
@@ -63,7 +63,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. 
+- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) 
 [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
  
 </div>
@@ -114,7 +114,7 @@ redirect_from:
   - 2022级：唐文静、萧正邦
   - 2021级：项晓琰、查晓璐、邱翰
 - *在读硕士*
-  - 2022级：`招募ing~`
+  - 2022级：`不温不火报名中~`
   - 2021级：於穆容、陈彦、田梓煜、孙旭、李云龙
   - 2020级：谭卓然、邵会哲、王萱、杨蕾、何静
   - 2019级：陈国涵、曹后程
