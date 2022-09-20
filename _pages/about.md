@@ -17,7 +17,7 @@ redirect_from:
 <span class='anchor' id='-grjj'></span>
 
 # 👋🏼 个人简介
-- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授以及硕士和博士研究生导师。我的研究工作集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
+- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授以及硕士和博士研究生导师。我的研究工作集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（包括但不限于运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 - 我的主要社会兼职包括：
   - 中国体育科学学会体能训练分会委员
   - 上海市高校青年教师协会常务理事
