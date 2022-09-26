@@ -110,6 +110,9 @@ redirect_from:
 <span class='anchor' id='-yjtd'></span>
 
 # 💻 研究团队
+- *招生方向*
+  - 博士：体育教育训练学
+  - 硕士：[体育教育训练学、体育（运动训练）](https://yjsc.sus.edu.cn/info/1734/6336.htm)
 - *在读博士* 
   - 2022级：唐文静、萧正邦
   - 2021级：项晓琰、邱翰
