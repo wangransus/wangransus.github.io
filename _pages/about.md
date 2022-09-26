@@ -17,14 +17,14 @@ redirect_from:
 <span class='anchor' id='-grjj'></span>
 
 # 👋🏼 个人简介
-- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授以及硕士和博士研究生导师。我的研究工作集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（包括但不限于运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
+- 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授以及硕士和博士研究生导师。我的研究工作集中在通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 - 我的主要社会兼职包括：
   - 中国体育科学学会体能训练分会委员
-  - 上海市高校青年教师协会常务理事
+  - 国家体育总局教练员学院特聘讲师
+  - 国家应急管理部重点实验室特聘专家
   - 上海市青少年体育协会体适能分会秘书长
   - 上海市体育科学学会体能训练分会秘书长
-  - 国家应急管理部重点实验室特聘专家
-  - 国家体育总局教练员学院特聘讲师
+  - 上海市高校青年教师协会常务理事
 
 <span class='anchor' id='-zxxx'></span>
 
@@ -45,8 +45,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) 
-[[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
+- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
 
 </div>
 </div>
@@ -54,8 +53,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Biomech. 2020</div><img src='images/2020SportsBiomechanics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊)  
-[[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
+-	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊) [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
 
 </div>
 </div>
@@ -63,8 +61,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) 
-[[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
+- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
  
 </div>
 </div>
@@ -72,8 +69,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《成都体育学院学报》2022</div><img src='images/2021成体学报.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
  
-- 路恒, 许贻林, `王然*`. 等长大腿中部拉测试在下肢肌肉力量诊断中的应用[J]. *成都体育学院学报*, 2022, 48(01): 129-142. (通讯作者；CSSCI期刊)
-[[网页]](https://dx.doi.org/10.15942/j.jcsu.2022.01.021) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022%E6%88%90%E4%BD%93%E5%AD%A6%E6%8A%A5.pdf) 
+- 路恒, 许贻林, `王然*`. 等长大腿中部拉测试在下肢肌肉力量诊断中的应用[J]. *成都体育学院学报*, 2022, 48(01): 129-142. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.15942/j.jcsu.2022.01.021) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022%E6%88%90%E4%BD%93%E5%AD%A6%E6%8A%A5.pdf) 
   
 </div>
 </div>
@@ -81,8 +77,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育与科学》2020</div><img src='images/2020体育与科学.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-- 路恒, 许贻林, `王然*`. 影响等长大腿中部拉测试信效度的方法学因素综述[J]. *体育与科学*, 2020, 41(06): 75-87. (通讯作者；CSSCI期刊)  
-[[网页]](https://dx.doi.org/10.13598/j.issn1004-4590.2020.06.012) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020%E4%BD%93%E8%82%B2%E4%B8%8E%E7%A7%91%E5%AD%A6.pdf)
+- 路恒, 许贻林, `王然*`. 影响等长大腿中部拉测试信效度的方法学因素综述[J]. *体育与科学*, 2020, 41(06): 75-87. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.13598/j.issn1004-4590.2020.06.012) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020%E4%BD%93%E8%82%B2%E4%B8%8E%E7%A7%91%E5%AD%A6.pdf)
   
 </div>
 </div>
@@ -111,7 +106,7 @@ redirect_from:
 
 # 💻 研究团队
 - *招生方向*
-  - 博士：体育教育训练学
+  - 博士：[体育教育训练学](https://yjsc.sus.edu.cn/info/1791/5817.htm)
   - 硕士：[体育教育训练学、体育（运动训练）](https://yjsc.sus.edu.cn/info/1734/6336.htm)
 - *在读博士* 
   - 2022级：唐文静、萧正邦
