@@ -42,6 +42,14 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2022</div><img src='images/2022中国体育科技.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+ 
+- 路恒, `王然*`,毛丽娟. 冰球比赛特征、体能需求及其测试方法综述[J]. *中国体育科技*, 2022, 58(11): 43-50. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.16470/j.csst.2022051) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022中国体育科技.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
