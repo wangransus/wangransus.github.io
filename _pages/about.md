@@ -20,6 +20,7 @@ redirect_from:
 - 我目前就职于上海体育学院竞技运动学院，受聘体育教育训练学专业教授以及硕士和博士研究生导师。我的研究工作致力于通过运动生理学、运动生物力学和运动心理学研究范式解决运动训练实践中的问题（例如运动表现测试与评估、训练负荷安排与监控、运动训练执教策略等）<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 - 我的主要社会兼职包括：
   - 中国体育科学学会体能训练分会委员
+  - 中国田径协会青少年委员会委员
   - 国家体育总局教练员学院特聘讲师
   - 国家应急管理部重点实验室特聘专家
   - 上海市青少年体育协会体适能分会秘书长
@@ -29,7 +30,7 @@ redirect_from:
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
-- *2022.11*：No news is good news! 
+- *2023.02*：No news is good news! 
 
 <span class='anchor' id='-jybj'></span>
 
@@ -41,14 +42,6 @@ redirect_from:
 <span class='anchor' id='-kycg'></span>
 
 # 📝 科研成果
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2022</div><img src='images/2022中国体育科技.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
- 
-- 路恒, `王然*`,毛丽娟. 冰球比赛特征、体能需求及其测试方法综述[J]. *中国体育科技*, 2022, 58(11): 43-50. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.16470/j.csst.2022051) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022中国体育科技.pdf)
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -74,6 +67,14 @@ redirect_from:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2022</div><img src='images/2022中国体育科技.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+ 
+- 路恒, `王然*`,毛丽娟. 冰球比赛特征、体能需求及其测试方法综述[J]. *中国体育科技*, 2022, 58(11): 43-50. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.16470/j.csst.2022051) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022中国体育科技.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《成都体育学院学报》2022</div><img src='images/2021成体学报.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
  
@@ -96,6 +97,7 @@ redirect_from:
 - 科技部国家重点研发计划`《冬季竞速类和团体球类项目专项国际化训练平台关键技术研究与应用》`，362万元，主持
 - 上海市科委地方院校能力建设项目`《科技助力大球类项目运动表现提升关键技术研究》`，50万元，主持
 - 上海市科委青年科技英才扬帆计划`《青少年抗阻训练后肌肉力量改善的生理适应机制》`，20万元，主持
+- 企事业单位委托科研项目`《UFC PI认证（Level II）课程翻译》`，30万元，主持
 - 企事业单位委托科研项目`《便携式测力台功能开发与信效度检验》`，20万元，主持
 - 企事业单位委托科研项目`《飞行员颈腰肌力量训练与电教示范方案研究》`，19万元，主持
 
