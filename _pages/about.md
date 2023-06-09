@@ -30,7 +30,7 @@ redirect_from:
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
-- *2023.02*：No news is good news! 
+- *2023.06*：祝贺陈国涵、曹后程、邵会哲、王萱四位同学顺利通过硕士论文答辩! 
 
 <span class='anchor' id='-jybj'></span>
 
@@ -64,6 +64,14 @@ redirect_from:
 
 - `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
  
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.16469/j.css.202301005) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
+
 </div>
 </div>
 
