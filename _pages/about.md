@@ -70,7 +70,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.16469/j.css.202301005) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
+- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
 
 </div>
 </div>
