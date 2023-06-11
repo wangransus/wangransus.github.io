@@ -43,30 +43,6 @@ redirect_from:
 
 # 📝 科研成果
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Biomech. 2020</div><img src='images/2020SportsBiomechanics.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
--	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊) [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
- 
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -91,11 +67,35 @@ redirect_from:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育与科学》2020</div><img src='images/2020体育与科学.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 - 路恒, 许贻林, `王然*`. 影响等长大腿中部拉测试信效度的方法学因素综述[J]. *体育与科学*, 2020, 41(06): 75-87. (通讯作者；CSSCI期刊) [[网页]](https://dx.doi.org/10.13598/j.issn1004-4590.2020.06.012) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020%E4%BD%93%E8%82%B2%E4%B8%8E%E7%A7%91%E5%AD%A6.pdf)
   
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Biomech. 2020</div><img src='images/2020SportsBiomechanics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+-	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊) [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
+ 
 </div>
 </div>
 
