@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "上海体育学院王然"
+title                    : "上海体育大学王然"
 description              : "竞技运动科学"
 repository               : "wangransus/wangransus.github.io"
 google_scholar_stats_use_cdn : false
@@ -23,9 +23,9 @@ baidu_site_verification  :  XlJqmR5DZNTsvZRf
 author:
   name             : "王然 博士"
   avatar           : "images/wangran.png"
-  bio              : "上海体育学院"
+  bio              : "上海体育大学"
   location         : "中国·上海"
-  employer         : #"上海体育学院"
+  employer         : #"上海体育大学"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl"
   email            : "wangran@sus.edu.cn"
