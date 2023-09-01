@@ -30,7 +30,7 @@ redirect_from:
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
-- *2023.06*：祝贺陈国涵、曹后程、邵会哲、王萱四位同学顺利通过硕士论文答辩! 
+- *2023.09*：New Semester is coming! 
 
 <span class='anchor' id='-jybj'></span>
 
