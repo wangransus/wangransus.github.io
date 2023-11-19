@@ -26,11 +26,12 @@ redirect_from:
   - 上海市青少年体育协会体适能分会秘书长
   - 上海市体育科学学会体能训练分会秘书长
   - 上海市高校青年教师协会常务理事
+  - Journal of Sports Engineering and Technology编委
 
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
-- *2023.09*：New Semester is coming! 
+- *2023.11*：I'm excited to join the Journal of Sports Engineering and Technology Editorial Board!
 
 <span class='anchor' id='-jybj'></span>
 
