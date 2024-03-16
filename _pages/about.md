@@ -44,6 +44,14 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Medicine 2024</div><img src='images/2024SportsMedicine.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Xu K, Xu Y, Zhou J, `Wang R*`. Comment on: “The Effectiveness of Resisted Sled Training (RST) for Sprint Performance: A Systematic Review and Meta-Analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02003-6) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
