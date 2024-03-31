@@ -24,13 +24,13 @@ redirect_from:
   - 上海市体育科学学会体能训练分会副主任委员
   - 上海市青少年体育协会体适能分会秘书长
   - 上海市高校青年教师协会常务理事
-  - Journal of Sports Engineering and Technology编委
   - 国家体育总局教练员学院特聘讲师
   - 国家应急管理部重点实验室特聘专家
 
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
+- *2024.04*：I'm excited to join the Journal of Medical Biomechanics (《医用生物力学》) Editorial Board!
 - *2023.11*：I'm excited to join the Journal of Sports Engineering and Technology Editorial Board!
 
 <span class='anchor' id='-jybj'></span>
