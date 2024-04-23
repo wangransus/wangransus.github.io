@@ -111,7 +111,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American College of Nutrition, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
+- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American Nutrition Association, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
  
 </div>
 </div>
