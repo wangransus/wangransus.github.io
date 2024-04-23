@@ -47,7 +47,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Med. 2024</div><img src='images/2024SportsMedicine2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Xu K, Yin M, Zhong Y, Xu Y, Zhou J, `Wang R*`. Comment on: “Effects of Combined Uphill–Downhill Sprinting Versus Resisted Sprinting Methods on Sprint Performance: A Systematic Review and Meta‑analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02003-6) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine2.pdf)
+- Xu K, Yin M, Zhong Y, Xu Y, Zhou J, `Wang R*`. Comment on: “Effects of Combined Uphill–Downhill Sprinting Versus Resisted Sprinting Methods on Sprint Performance: A Systematic Review and Meta‑analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02025-0) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine2.pdf)
 
 </div>
 </div>
