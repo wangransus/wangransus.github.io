@@ -18,7 +18,7 @@ redirect_from:
 
 # 👋🏼 个人简介
 - 我目前就职于[上海体育大学竞技运动学院](https://jjyd.sus.edu.cn/)，受聘体育教育训练学教授和硕博研究生导师
-- 我的研究工作致力于通过运动生理学、运动生物力学和运动心理学等研究方法解决运动训练实践中的问题<a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
+- 我的研究工作致力于通过运动生物力学和运动生理学研究方法解决运动训练实践中的问题 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
   - 运动表现测试与评估
   - 训练负荷安排与监控
   - 运动训练的执教策略
