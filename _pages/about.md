@@ -21,7 +21,7 @@ redirect_from:
   - 体育教育训练学教授
   - 博士硕士研究生导师
   - 体能训练专业负责人
-- 我的研究工作 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 致力于通过运动生物力学和运动生理学研究方法解决运动训练实践中的问题： 
+- 我的研究工作 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 致力于解决运动训练实践中的问题： 
   - 运动表现测试与评估
   - 训练负荷安排与监控
   - 运动训练的执教策略
