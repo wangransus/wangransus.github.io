@@ -54,7 +54,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Med. 2024</div><img src='images/2024SportsMedicine2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Xu K, Yin M, Zhong Y, Xu Y, Zhou J, `Wang R*`. Comment on: “Effects of Combined Uphill–Downhill Sprinting Versus Resisted Sprinting Methods on Sprint Performance: A Systematic Review and Meta‑analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02025-0) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine2.pdf)
+- Xu K, Yin M, Zhong Y, Xu Y, Zhou J, `Wang R*`. Comment on: “Effects of Combined Uphill–Downhill Sprinting Versus Resisted Sprinting Methods on Sprint Performance: A Systematic Review and Meta‑analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI收录；中科院一区Top期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02025-0) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine2.pdf)
 
 </div>
 </div>
@@ -62,7 +62,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Med. 2024</div><img src='images/2024SportsMedicine.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Xu K, Xu Y, Zhou J, `Wang R*`. Comment on: “The Effectiveness of Resisted Sled Training (RST) for Sprint Performance: A Systematic Review and Meta-Analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02003-6) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine.pdf)
+- Xu K, Xu Y, Zhou J, `Wang R*`. Comment on: “The Effectiveness of Resisted Sled Training (RST) for Sprint Performance: A Systematic Review and Meta-Analysis”[J]. Sports Medicine, 2024. (通讯作者；SCI收录；中科院一区Top期刊)[[网页]](https://link.springer.com/article/10.1007/s40279-024-02003-6) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024SportsMedicine.pdf)
 
 </div>
 </div>
@@ -70,7 +70,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
+- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI顶级期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
 
 </div>
 </div>
@@ -94,7 +94,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Sports Eng. Technol. 2021</div><img src='images/2021JSET.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI期刊) [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
+- Wu M, `Wang R*`, Hu Y, et al. Invisible experience to real-time assessment in elite tennis athlete training: Sport-specific movement classification based on wearable MEMS sensor data[J]. Proceedings of the Institution of Mechanical Engineers, Part P: Journal of Sports Engineering and Technology, 2021. (通讯作者；SCI收录；英国机械工程师学会会刊) [[网页]](https://dx.doi.org/10.1177/17543371211050312) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2021JSET.pdf)
 
 </div>
 </div>
@@ -110,7 +110,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Biomech. 2020</div><img src='images/2020SportsBiomechanics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI期刊) [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
+-	`Wang R*`, Fukuda D H, Cheng P, et al. Differential effects of speed on two-dimensional foot strike pattern during barefoot and shod running in recreationally active men[J]. Sports Biomechanics, 2020, 19(4): 438-451. (第一作者；SCI收录；国际运动生物力学学会会刊) [[网页]](https://dx.doi.org/10.1080/14763141.2018.1497194) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2020SportsBiomechanics.pdf)
 
 </div>
 </div>
@@ -118,7 +118,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">J. Am. Coll. Nutr. 2018</div><img src='images/2018JACN.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American Nutrition Association, 2019, 38(2): 149-161. (第一作者；SCI期刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
+- `Wang R*`, Fukuda D H, Hoffman J R, et al. Distinct effects of repeated-sprint training in normobaric hypoxia and β-alanine supplementation[J]. Journal of the American Nutrition Association, 2019, 38(2): 149-161. (第一作者；SCI收录；美国营养学会会刊) [[网页]](https://doi.org/10.1080/07315724.2018.1475269) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2018JACN.pdf)
  
 </div>
 </div>
