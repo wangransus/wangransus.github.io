@@ -37,8 +37,8 @@ redirect_from:
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
-- *2024.04*：I'm excited to join the Journal of Medical Biomechanics (《医用生物力学》) Editorial Board!
-- *2023.11*：I'm excited to join the Journal of Sports Engineering and Technology Editorial Board!
+- *2024.04*：I'm excited to join the Journal of Medical Biomechanics (《医用生物力学》) [Editorial Board](http://www.mechanobiology.cn/yyswlx/news/view/20240428141350001)!
+- *2023.11*：I'm excited to join the Journal of Sports Engineering and Technology [Editorial Board](https://journals.sagepub.com/editorial-board/PIP)!
 
 <span class='anchor' id='-jybj'></span>
 
