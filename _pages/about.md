@@ -54,7 +54,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 徐恺, 殷明越, `王然*`. 中文体育类核心期刊元分析的选题和方法学问题[J]. *体育科学*, 2024, 44(1): 88-96. (通讯作者；CSSCI顶级期刊) [[网页]]([https://kns.cnki.net/kcms2/article/abstract?v=a2GKbg6fW_YYPE3XxNskeiU_h4b4MJb8NwnHleHIic57QXI7iq27KeEu-QGQpXZDQ3iAY8oBA8X6O0lsPl4AEypTBt_cst0VXwXmurWM7zUWEyJW8vceCDneH-Swe-8_&uniplatform=NZKPT&flag=copy]) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
+- 徐恺, 殷明越, `王然*`. 中文体育类核心期刊元分析的选题和方法学问题[J]. *体育科学*, 2024, 44(1): 88-96. (通讯作者；CSSCI顶级期刊) [[网页]](https://kns.cnki.net/kcms2/article/abstract?v=a2GKbg6fW_YYPE3XxNskeiU_h4b4MJb8NwnHleHIic57QXI7iq27KeEu-QGQpXZDQ3iAY8oBA8X6O0lsPl4AEypTBt_cst0VXwXmurWM7zUWEyJW8vceCDneH-Swe-8_&uniplatform=NZKPT&flag=copy) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
 
 </div>
 </div>
