@@ -51,6 +51,14 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 徐恺, 殷明越, `王然*`. 中文体育类核心期刊元分析的选题和方法学问题[J]. *体育科学*, 2024, 44(1): 88-96. (通讯作者；CSSCI顶级期刊) [[网页]]([https://kns.cnki.net/kcms2/article/abstract?v=a2GKbg6fW_YYPE3XxNskeiU_h4b4MJb8NwnHleHIic57QXI7iq27KeEu-QGQpXZDQ3iAY8oBA8X6O0lsPl4AEypTBt_cst0VXwXmurWM7zUWEyJW8vceCDneH-Swe-8_&uniplatform=NZKPT&flag=copy]) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Med. 2024</div><img src='images/2024SportsMedicine2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -70,7 +78,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 臧宇,许贻林,项晓琰,翟一飞,陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI顶级期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
+- 臧宇, 许贻林, 项晓琰, 翟一飞, 陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI顶级期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
 
 </div>
 </div>
@@ -78,7 +86,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2022</div><img src='images/2022中国体育科技.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
  
-- 路恒, `王然*`,毛丽娟. 冰球比赛特征、体能需求及其测试方法综述[J]. *中国体育科技*, 2022, 58(11): 43-50. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykj/2022/channel/11/2023/0131/4307.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022中国体育科技.pdf)
+- 路恒, `王然*`, 毛丽娟. 冰球比赛特征、体能需求及其测试方法综述[J]. *中国体育科技*, 2022, 58(11): 43-50. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykj/2022/channel/11/2023/0131/4307.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2022中国体育科技.pdf)
 
 </div>
 </div>
