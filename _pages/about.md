@@ -51,6 +51,14 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2024</div><img src='images/2024中国体育科技.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 项晓琰, 徐飞, 路恒, `王然*`. 不同负荷结构急性抗阻训练对神经肌肉表现的影响[J]. *中国体育科技*, 2024, 60(4): 39-46. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykj/2024/channel/4/2024/0702/4823.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024中国体育科技.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
