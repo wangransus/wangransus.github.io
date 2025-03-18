@@ -51,6 +51,22 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports Med. 2025</div><img src='images/2025SportsMedicine.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Xu K, Blazevich AJ, Boullosa D, Ramirez-Campillo R, Yin M, Zhong Y, Tian Y, Finlay M, Byrne PJ, Cuenca-Fernández F, `Wang R*`. Optimizing Post-activation Performance Enhancement in Athletic Tasks: A Systematic Review with Meta-analysis for Prescription Variables and Research Methods[J]. Sports Medicine, 2025. (通讯作者；SCI收录；中科院一区Top期刊) [[网页]](https://doi.org/10.1007/s40279-024-02170-6) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025SportsMedicine.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2025</div><img src='images/2025中国体育科技.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 徐恺, 唐文静, 路恒, `王然*`. 激活后增强效应与激活后表现提升：重塑定义与认知[J]. *中国体育科技*, 2025, 61(1): 47-58. (通讯作者；CSSCI期刊) [[网页]](http://www.cisszgty.com/tykj/2025/channel/1/2025/0126/5058.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025中国体育科技.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2024</div><img src='images/2024中国体育科技.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
