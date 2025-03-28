@@ -67,6 +67,14 @@ redirect_from:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 唐文静, 张立萍, 许贻林, 徐恺, 路恒, `王然*`. 无创肌肉结构评估：肌骨超声成像技术在运动表现领域中的应用[J]. *体育科学*, 2024, 44(11): 74-86. (通讯作者；CSSCI顶级期刊) [[网页]](http://tykx.xml-journal.net/article/doi/10.16469/J.css.2024KX040) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2024</div><img src='images/2024中国体育科技.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -78,7 +86,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 徐恺, 殷明越, `王然*`. 中文体育类核心期刊元分析的选题和方法学问题[J]. *体育科学*, 2024, 44(1): 88-96. (通讯作者；CSSCI顶级期刊) [[网页]](https://kns.cnki.net/kcms2/article/abstract?v=a2GKbg6fW_YYPE3XxNskeiU_h4b4MJb8NwnHleHIic57QXI7iq27KeEu-QGQpXZDQ3iAY8oBA8X6O0lsPl4AEypTBt_cst0VXwXmurWM7zUWEyJW8vceCDneH-Swe-8_&uniplatform=NZKPT&flag=copy) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
+- 徐恺, 殷明越, `王然*`. 中文体育类核心期刊元分析的选题和方法学问题[J]. *体育科学*, 2024, 44(1): 88-96. (通讯作者；CSSCI顶级期刊) [[网页]](http://tykx.xml-journal.net/article/doi/10.16469/j.css.202401010) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
 
 </div>
 </div>
@@ -102,7 +110,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2023</div><img src='images/2023体育科学.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 臧宇, 许贻林, 项晓琰, 翟一飞, 陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI顶级期刊) [[网页]](http://www.cisszgty.com/tykx/2023/channel/1/2023/0608/4459.html) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
+- 臧宇, 许贻林, 项晓琰, 翟一飞, 陈刚, `王然*`. 高水平短跑运动员跳深动作表现分析：下肢关节生物力学视角[J]. *体育科学*, 2023, 43(1): 41-47. (通讯作者；CSSCI顶级期刊) [[网页]](http://tykx.xml-journal.net/article/doi/10.16469/j.css.202301005) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2023体育科学.pdf)
 
 </div>
 </div>
