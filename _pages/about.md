@@ -67,10 +67,10 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《体育科学》2024</div><img src='images/2024体育科学2.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- 唐文静, 张立萍, 许贻林, 徐恺, 路恒, `王然*`. 无创肌肉结构评估：肌骨超声成像技术在运动表现领域中的应用[J]. *体育科学*, 2024, 44(11): 74-86. (通讯作者；CSSCI顶级期刊) [[网页]](http://tykx.xml-journal.net/article/doi/10.16469/J.css.2024KX040) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学.pdf)
+- 唐文静, 张立萍, 许贻林, 徐恺, 路恒, `王然*`. 无创肌肉结构评估：肌骨超声成像技术在运动表现领域中的应用[J]. *体育科学*, 2024, 44(11): 74-86. (通讯作者；CSSCI顶级期刊) [[网页]](http://tykx.xml-journal.net/article/doi/10.16469/J.css.2024KX040) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2024体育科学2.pdf)
 
 </div>
 </div>
