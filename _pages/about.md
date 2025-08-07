@@ -51,7 +51,7 @@ redirect_from:
 
 # 📝 科研成果
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《医用生物力学》2025</div><img src='images/2025医用生物力学.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《医用生物力学》2025</div><img src='images/2025医用生物力学.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - 路恒, 於穆容, 项晓琰, 唐文静, 查晓璐, `王然*`. 基于弹振式俯卧撑测试的青年男性上肢力量和爆发力预测模型构建[J]. *医用生物力学*, 2025, 40(3): 561-569. (通讯作者；CSCD期刊) [[网页]](http://www.mechanobiology.cn/yyswlx/article/abstract/202503007?st=article_issue) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025医用生物力学.pdf)
@@ -59,7 +59,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J Strength Cond Res. 2025</div><img src='images/2025JSCR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J Strength Cond Res. 2025</div><img src='images/2025JSCR.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Xu K, Yin M, Zhong Y, Huang K, Xu Y, Zhou J, `Wang R*`. Acute Effects of Assisted and Resisted Sprint Training on Subsequent Sprint Performance: A Systematic Review and Meta-Analysis[J]. Journal of Strength and Conditioning Research, 2025. (通讯作者；SCI收录；中科院二区期刊) [[网页]](https://pubmed.ncbi.nlm.nih.gov/40266644/) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025JSCR.pdf)
@@ -212,5 +212,6 @@ redirect_from:
   - 2023级：路恒
   - 2022级：唐文静、萧正邦
   - 2021级：项晓琰、邱翰
+
 
 
