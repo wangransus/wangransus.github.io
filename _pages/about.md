@@ -37,6 +37,7 @@ redirect_from:
 <span class='anchor' id='-zxxx'></span>
 
 # 🔥 最新消息
+- *2026.04*：I'm excited to edit the special issue for [JFMK](https://www.mdpi.com/journal/jfmk/special_issues/WY0Z1REVS9)!
 - *2024.04*：I'm excited to join the Journal of Medical Biomechanics [Editorial Board](http://www.mechanobiology.cn/yyswlx/news/view/20240428141350001)!
 - *2023.11*：I'm excited to join the Journal of Sports Engineering and Technology [Editorial Board](https://journals.sagepub.com/editorial-board/PIP)!
 
@@ -51,10 +52,26 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports 2025</div><img src='images/2025Sports.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Zhang M, Zhou H, Xiang X, `Wang R*`. Acute Effects of Accelerated Eccentrics and Accentuated Eccentric Loading on Squat Performance and Lower-Limb Biomechanics[J]. *Sports*, 2025, 13(12): 418. (通讯作者；SCI期刊) [[网页]](https://www.mdpi.com/2075-4663/13/12/418) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025Sports.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《医用生物力学》2025</div><img src='images/2025医用生物力学.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - 路恒, 於穆容, 项晓琰, 唐文静, 查晓璐, `王然*`. 基于弹振式俯卧撑测试的青年男性上肢力量和爆发力预测模型构建[J]. *医用生物力学*, 2025, 40(3): 561-569. (通讯作者；CSCD期刊) [[网页]](http://www.mechanobiology.cn/yyswlx/article/abstract/202503007?st=article_issue) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025医用生物力学.pdf)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《天津体育学院学报》2025</div><img src='images/2025天津体育学院学报.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- 盛怡, 陈国涵, 路恒, 项晓琰, 唐文静, `王然*`. 羽毛球专项重复冲刺能力（RSA）测试的构建与应用[J]. *天津体育学院学报*, 2025, 40(2): 235-242. (通讯作者；CSSCI期刊) [[网页]](https://kns.cnki.net/kcms2/article/abstract?v=y_SiIdm5mqvqk45ugVBXBLXnO2ofzeVOpFoslaGU-URdyWrw0Z6-uDG1Y1QPke6iOF1loIGdDCXbK-M0w7muh2zVesLp_8Rwv3QCWatoHkoYFEEKpAGK_MW1ZtRsgCxiNJxsWVjSJVV60ddnnAcrPmbC72VQSzWe2evtWa9Xtu0=&uniplatform=NZKPT) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025天津体育学院学报.pdf)
 
 </div>
 </div>
