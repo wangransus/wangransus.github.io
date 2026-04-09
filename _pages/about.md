@@ -52,7 +52,7 @@ redirect_from:
 
 # 📝 科研成果
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2026</div><img src='images/2026中国体育科技.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2026</div><img src='images/2026中国体育科技.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - 徐恺, 陆雯静, 高嘉振, 刘恒贤, 钟裕明, 殷明越, `王然*`. 优化激活后表现提升在实践中的应用:一项基于方法学角度的单盲随机交叉实验[J]. *中国体育科技*, 2026, 62(2): 33-43. (通讯作者；CSSCI期刊) [[网页]](https://zgty.cbpt.cnki.net/portal/journal/portal/client/paper/9aa26310534f11d9ce1b7b03ef8ab6c7) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2026中国体育科技.pdf)
@@ -60,7 +60,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports 2025</div><img src='images/2025Sports.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sports 2025</div><img src='images/2025Sports.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Zhang M, Zhou H, Xiang X, `Wang R*`. Acute Effects of Accelerated Eccentrics and Accentuated Eccentric Loading on Squat Performance and Lower-Limb Biomechanics[J]. *Sports*, 2025, 13(12): 418. (通讯作者；SCI期刊) [[网页]](https://www.mdpi.com/2075-4663/13/12/418) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025Sports.pdf)
@@ -76,7 +76,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《天津体育学院学报》2025</div><img src='images/2025天津体育学院学报.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《天津体育学院学报》2025</div><img src='images/2025天津体育学院学报.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - 盛怡, 陈国涵, 路恒, 项晓琰, 唐文静, `王然*`. 羽毛球专项重复冲刺能力（RSA）测试的构建与应用[J]. *天津体育学院学报*, 2025, 40(2): 235-242. (通讯作者；CSSCI期刊) [[网页]](https://kns.cnki.net/kcms2/article/abstract?v=y_SiIdm5mqvqk45ugVBXBLXnO2ofzeVOpFoslaGU-URdyWrw0Z6-uDG1Y1QPke6iOF1loIGdDCXbK-M0w7muh2zVesLp_8Rwv3QCWatoHkoYFEEKpAGK_MW1ZtRsgCxiNJxsWVjSJVV60ddnnAcrPmbC72VQSzWe2evtWa9Xtu0=&uniplatform=NZKPT) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2025天津体育学院学报.pdf)
