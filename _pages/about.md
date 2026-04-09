@@ -52,6 +52,14 @@ redirect_from:
 
 # 📝 科研成果
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2026</div><img src='images/2026Sensors.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Zhao R, Cong R, Zhou R, Lin K, Yang J, Kui T, Zhang J, `Wang R*`, Dong R. Landmine Press Kinematics Measured with an Enhanced YOLOv8 Model and Mathematical Modeling[J]. *Sensors*, 2026, 26(4): 1611. (通讯作者；SCI期刊) [[网页]](https://www.mdpi.com/1424-8220/26/4/1161) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2026Sensors.pdf)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2026</div><img src='images/2026中国体育科技.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
