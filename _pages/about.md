@@ -52,7 +52,7 @@ redirect_from:
 
 # 📝 科研成果
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2026</div><img src='images/2026中国体育科技.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">《中国体育科技》2026</div><img src='images/2026中国体育科技.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - 徐恺, 陆雯静, 高嘉振, 刘恒贤, 钟裕明, 殷明越, `王然*`. 优化激活后表现提升在实践中的应用:一项基于方法学角度的单盲随机交叉实验[J]. *中国体育科技*, 2026, 62(2): 33-43. (通讯作者；CSSCI期刊) [[网页]](https://zgty.cbpt.cnki.net/portal/journal/portal/client/paper/9aa26310534f11d9ce1b7b03ef8ab6c7) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2026中国体育科技.pdf)
