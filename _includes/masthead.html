@@ -1,21 +1,14 @@
-<div class="masthead">
+<header class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="https://www.sus.edu.cn/" target="_self">
-              <img class="svg" src="/images/suslogoname.png" width="150pt"> 
-            
-            </a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    <a class="site-brand" href="/" target="_self" aria-label="{{ site.title }}">
+      <img class="site-brand__logo" src="/images/suslogoname.png" alt="上海体育大学">
+      <span class="site-brand__text">竞技运动科学</span>
+    </a>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      {% for link in site.data.navigation.main %}
+        <a class="site-nav__link" href="{{ link.url }}" target="_self">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
   </div>
-</div>
+</header>
