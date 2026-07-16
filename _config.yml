@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "王然 | 上海体育大学"
-description              : "竞技运动科学、体能训练与运动表现评估"
+title                    : "上海体育大学王然"
+description              : "竞技运动科学"
 repository               : "wangransus/wangransus.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,11 +23,11 @@ baidu_site_verification  :  XlJqmR5DZNTsvZRf
 author:
   name             : "王然 博士"
   avatar           : "images/wangran.png"
-  bio              : "上海体育大学 · 竞技运动学院"
+  bio              : "上海体育大学"
   location         : "中国·上海"
   employer         : #"上海体育大学"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl"
   email            : "wangran@sus.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Ran-Wang-61"
   uri              : 

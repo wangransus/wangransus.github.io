@@ -14,39 +14,6 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<section class="profile-hero" aria-labelledby="profile-title">
-  <div class="profile-hero__media">
-    <img src="/images/wangran.png" alt="王然 博士">
-  </div>
-  <div class="profile-hero__content">
-    <p class="eyebrow">Shanghai University of Sport</p>
-    <h1 id="profile-title">王然 博士</h1>
-    <p class="profile-hero__subtitle">体育教育训练学教授，博士硕士研究生导师，体能训练专业负责人。</p>
-    <p class="profile-hero__summary">研究聚焦运动表现测试与评估、训练负荷安排与监控、以及运动训练执教策略，面向竞技运动实践中的真实问题开展科研与应用转化。</p>
-    <div class="profile-hero__actions" aria-label="Profile links">
-      <a class="button-primary" href="mailto:wangran@sus.edu.cn">联系邮箱</a>
-      <a class="button-secondary" href="https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en">Google Scholar</a>
-      <a class="button-secondary" href="https://orcid.org/0000-0002-7148-0764">ORCID</a>
-    </div>
-  </div>
-</section>
-
-<section class="quick-stats" aria-label="Research highlights">
-  <div class="quick-stat">
-    <span class="quick-stat__value">2638</span>
-    <span class="quick-stat__label">Google Scholar citations</span>
-  </div>
-  <div class="quick-stat">
-    <span class="quick-stat__value">25</span>
-    <span class="quick-stat__label">h-index</span>
-  </div>
-  <div class="quick-stat">
-    <span class="quick-stat__value">5+</span>
-    <span class="quick-stat__label">主持科研与产业合作项目</span>
-  </div>
-</section>
-
 <span class='anchor' id='-grjj'></span>
 
 # 👋🏼 个人简介
@@ -88,7 +55,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2026</div><img src='images/2026Sensors.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Zhao R, Cong R, Zhou R, Lin K, Yang J, Kui T, Zhang J, `Wang R*`, Dong R. Landmine Press Kinematics Measured with an Enhanced YOLOv8 Model and Mathematical Modeling[J]. *Sensors*, 2026, 26(4): 1161. (通讯作者；SCI期刊) [[网页]](https://www.mdpi.com/1424-8220/26/4/1161) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2026Sensors.pdf)
+- Zhao R, Cong R, Zhou R, Lin K, Yang J, Kui T, Zhang J, `Wang R*`, Dong R. Landmine Press Kinematics Measured with an Enhanced YOLOv8 Model and Mathematical Modeling[J]. *Sensors*, 2026, 26(4): 1611. (通讯作者；SCI期刊) [[网页]](https://www.mdpi.com/1424-8220/26/4/1161) [[下载]](https://github.com/wangransus/wangransus.github.io/raw/master/docs/2026Sensors.pdf)
 
 </div>
 </div>
