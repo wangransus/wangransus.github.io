@@ -1,3 +1,4 @@
 _site/
+.worktrees/
 push.sh
 .DS_Store
