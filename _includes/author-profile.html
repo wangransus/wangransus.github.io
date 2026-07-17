@@ -1,27 +1,23 @@
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
-{% endif %}
+{% assign page_lang = page.lang | default: "zh-CN" %}
+{% assign locale = site.data.locales[page_lang] | default: site.data.locales["zh-CN"] %}
+{% assign author = site.author %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ locale.profile_name | escape }}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{{ locale.profile_name | escape }}</h3>
+    <p class="author__bio">{{ locale.profile_bio | escape }}</p>
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
-    <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
-      {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
-      {% endif %}
+    <ul class="author__urls social-icons" aria-label="{{ locale.contact_label | escape }}">
+      <li><div style="white-space: normal; margin-bottom: 1em;">{{ locale.profile_bio | escape }}</div></li>
+      <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ locale.location | escape }}</li>
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
