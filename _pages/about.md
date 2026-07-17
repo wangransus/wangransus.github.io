@@ -1,7 +1,10 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+lang: zh-CN
+alternate_url: /en/
+title: "王然 | 上海体育大学"
+description: "竞技运动科学、体能训练与运动表现评估"
+excerpt: "上海体育大学王然博士的学术主页"
 author_profile: true
 redirect_from: 
   - /about/
