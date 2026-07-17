@@ -289,11 +289,11 @@ h1:before, .anchor:before {
     border-bottom: 1px solid #dfe4ea;
 
     .paper-box-image {
-        flex: 0 0 170px;
+        flex: 0 0 230px;
         justify-content: flex-start;
-        width: 170px;
-        min-width: 170px;
-        max-width: 170px;
+        width: 230px;
+        min-width: 0;
+        max-width: 230px;
         order: 1;
 
         > div {
@@ -303,8 +303,8 @@ h1:before, .anchor:before {
 
         img {
             display: block;
-            width: 170px;
-            height: 220px;
+            width: 100%;
+            height: auto;
             max-width: 100%;
             padding: 4px;
             object-fit: contain;
@@ -379,10 +379,11 @@ h1:before, .anchor:before {
         gap: 1rem;
 
         .paper-box-image {
-            flex-basis: auto;
+            flex: 0 1 auto;
+            align-self: flex-start;
             width: 100%;
             min-width: 0;
-            max-width: none;
+            max-width: 400px;
             order: 1;
         }
 
@@ -458,8 +459,4 @@ h1:before, .anchor:before {
         }
     }
 
-    .publications .paper-box .paper-box-image img {
-        width: 150px;
-        height: 194px;
-    }
 }
