@@ -22,6 +22,7 @@ FORBIDDEN_CLIENT_SIDE_LANGUAGE_TOKENS = (
     r"<script\b", r"navigator\.language", r"window\.location",
     r"location\.replace", r"localStorage", r"sessionStorage", r"document\.cookie",
 )
+FORBIDDEN_LANGUAGE_LOGIC_TOKENS = FORBIDDEN_CLIENT_SIDE_LANGUAGE_TOKENS[1:]
 BANNED_MULTILINGUAL_TOKENS = (
     r"jekyll[-_]polyglot", r"jekyll[-_]multiple[-_]languages[-_]plugin",
     r"jekyll[-_]localization", r"jekyll[-_]i18n", r"\bmultilingual\b",
@@ -58,6 +59,31 @@ def strip_comments(text):
 
 def active_source(path):
     return strip_comments(read_utf8(path))
+
+
+def loaded_script_sources():
+    root = ROOT / "_includes" / "scripts.html"
+    paths = {root}
+    queue = [root]
+    while queue:
+        path = queue.pop()
+        source = active_source(path)
+        for include_name in re.findall(r"{%\s*include\s+([^\s%]+)", source):
+            include_path = ROOT / "_includes" / include_name
+            if include_path.is_file() and include_path not in paths:
+                paths.add(include_path)
+                queue.append(include_path)
+        for source_url in re.findall(r"<script\b[^>]*\bsrc\s*=\s*['\"]([^'\"]+)", source, re.IGNORECASE):
+            if re.match(r"(?:[a-z]+:)?//", source_url, re.IGNORECASE):
+                continue
+            local_path = ROOT / source_url.lstrip("/")
+            if local_path.is_file() and local_path not in paths:
+                paths.add(local_path)
+                queue.append(local_path)
+    main_source = ROOT / "assets" / "js" / "_main.js"
+    if main_source.is_file():
+        paths.add(main_source)
+    return sorted(paths)
 
 
 def load_front_matter(path):
@@ -199,12 +225,20 @@ class BilingualContractTest(unittest.TestCase):
             if not isinstance(locales.get(language), dict):
                 continue
             self.assertTrue(REQUIRED_LOCALE_KEYS.issubset(locales[language]), f"{language} locale is missing required keys")
-            for key in REQUIRED_LOCALE_KEYS:
-                value = locales[language].get(key)
-                self.assertIsInstance(value, str, f"{language}.{key} must be a string")
-                if isinstance(value, str):
-                    self.assertTrue(value.strip(), f"{language}.{key} must be non-empty")
-            self.assertFalse(any(re.search(r"https?://", value) for value in locales[language].values() if isinstance(value, str)), f"{language} locale must not duplicate contact URLs")
+            config = self.assert_yaml_document(ROOT / "_config.yml", dict)
+            shared_author = config.get("author", {}) if isinstance(config, dict) else {}
+            shared_values = {str(shared_author[key]) for key in CONTACT_KEYS if isinstance(shared_author, dict) and shared_author.get(key)}
+            for key, value in locales[language].items():
+                self.assertIsInstance(key, str, f"{language} locale keys must be strings")
+                self.assertIsInstance(value, str, f"{language}.{key} must be a scalar string")
+                if not isinstance(key, str) or not isinstance(value, str):
+                    continue
+                self.assertTrue(value.strip(), f"{language}.{key} must be non-empty")
+                self.assertLessEqual(len(value), 160, f"{language}.{key} is too long for display text")
+                self.assertNotRegex(value, r"https?://|mailto:", f"{language}.{key} must not contain a URL")
+                self.assertNotRegex(value, r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", f"{language}.{key} must not contain an email")
+                self.assertNotIn(key.lower(), {"email", "googlescholar", "researchgate", "uri", "avatar", "github", "twitter", "facebook"}, f"{language}.{key} duplicates shared author data")
+                self.assertNotIn(value, shared_values, f"{language}.{key} duplicates shared contact data")
 
     def test_shared_contact_urls_and_no_multilingual_plugins(self):
         config = self.assert_yaml_document(ROOT / "_config.yml", dict)
@@ -232,6 +266,14 @@ class BilingualContractTest(unittest.TestCase):
             text = active_source(path)
             for token in FORBIDDEN_CLIENT_SIDE_LANGUAGE_TOKENS:
                 self.assertNotRegex(text, token, f"{relative_path} must not use {token}")
+        script_paths = loaded_script_sources()
+        self.assertIn(ROOT / "_includes" / "scripts.html", script_paths)
+        self.assertIn(ROOT / "assets" / "js" / "_main.js", script_paths)
+        for path in script_paths:
+            self.assertTrue(path.is_file(), f"loaded script source must exist: {path.relative_to(ROOT)}")
+            text = active_source(path)
+            for token in FORBIDDEN_LANGUAGE_LOGIC_TOKENS:
+                self.assertNotRegex(text, token, f"{path.relative_to(ROOT)} must not use {token}")
 
     def test_includes_derive_locale_from_page_language(self):
         for relative_path in ("_includes/masthead.html", "_includes/author-profile.html", "_includes/publications.html"):
