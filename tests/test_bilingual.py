@@ -11,6 +11,8 @@ REQUIRED_LOCALE_KEYS = {
     "profile_name", "profile_bio", "location", "language_name",
     "switch_label", "publications_label", "article_label",
     "download_label", "navigation_label", "contact_label",
+    "language_selector_label", "toggle_navigation_label", "logo_alt",
+    "email_label",
 }
 CONTACT_KEYS = ("googlescholar", "email", "researchgate", "uri")
 BILINGUAL_IMPLEMENTATION_FILES = (
@@ -73,7 +75,10 @@ def reached_template_and_script_sources():
             if include_path.is_file() and include_path not in template_paths:
                 template_paths.add(include_path)
                 queue.append(include_path)
-        for source_url in re.findall(r"<script\b[^>]*\bsrc\s*=\s*['\"]([^'\"]+)", source, re.IGNORECASE):
+        for _, source_url in re.findall(r"<script\b[^>]*\bsrc\s*=\s*(['\"])(.*?)\1", source, re.IGNORECASE):
+            liquid_path = re.match(r"\{\{\s*['\"]([^'\"]+)['\"]\s*\|", source_url)
+            if liquid_path:
+                source_url = liquid_path.group(1)
             if re.match(r"(?:[a-z]+:)?//", source_url, re.IGNORECASE):
                 continue
             local_path = ROOT / source_url.lstrip("/")
@@ -275,6 +280,36 @@ class BilingualContractTest(unittest.TestCase):
             for token in FORBIDDEN_LANGUAGE_LOGIC_TOKENS:
                 self.assertNotRegex(text, token, f"{path.relative_to(ROOT)} must not use {token}")
 
+    def test_reachable_templates_use_baseurl_aware_local_assets(self):
+        template_paths, script_paths = reached_template_and_script_sources()
+        self.assertIn(ROOT / "assets" / "js" / "_main.js", script_paths)
+        document_relative = []
+        for path in template_paths:
+            for _, value in re.findall(r"\b(src|href|content)\s*=\s*['\"]([^'\"]+)", active_source(path), re.IGNORECASE):
+                if re.match(r"(?:assets|images)/", value, re.IGNORECASE):
+                    document_relative.append(f"{path.relative_to(ROOT)}: {value}")
+        self.assertEqual([], document_relative, "reachable templates must not contain document-relative local assets")
+
+        core_assets = {
+            "_includes/head.html": ("/assets/css/main.css",),
+            "_includes/scripts.html": ("/assets/js/main.min.js",),
+            "_includes/head/custom.html": (
+                "/images/apple-touch-icon.png", "/images/favicon-32x32.png",
+                "/images/favicon-16x16.png", "/images/site.webmanifest",
+                "/images/mstile-144x144.png?v=M44lzPylqQ",
+                "/images/browserconfig.xml?v=M44lzPylqQ",
+                "/assets/css/academicons.css",
+            ),
+            "_includes/masthead.html": ("/images/suslogoname.png",),
+        }
+        for relative_path, assets in core_assets.items():
+            source = active_source(ROOT / relative_path)
+            for asset in assets:
+                pattern = rf"\{{\{{\s*['\"]{re.escape(asset)}['\"]\s*\|\s*relative_url(?:\s*\|\s*escape)?\s*\}}\}}"
+                self.assertRegex(source, pattern, f"{relative_path} must pass {asset} through relative_url")
+        profile = active_source(ROOT / "_includes" / "author-profile.html")
+        self.assertRegex(profile, r"\{\{\s*author\.avatar\s*\|\s*relative_url\s*\|\s*escape\s*\}\}")
+
     def test_includes_derive_locale_from_page_language(self):
         for relative_path in ("_includes/masthead.html", "_includes/author-profile.html", "_includes/publications.html"):
             text = active_source(ROOT / relative_path)
@@ -282,21 +317,33 @@ class BilingualContractTest(unittest.TestCase):
             self.assertRegex(text, page_lang, f"{relative_path} must derive page_lang")
             self.assertRegex(text, locale, f"{relative_path} must derive locale from page_lang")
 
-    def test_masthead_has_localized_navigation_branch_and_real_language_link(self):
+    def test_masthead_has_localized_navigation_and_two_choice_language_selector(self):
         masthead = active_source(ROOT / "_includes" / "masthead.html")
         page_lang, locale = locale_contract(masthead)
         self.assertRegex(masthead, page_lang)
         self.assertRegex(masthead, locale)
         self.assertRegex(masthead, r"{%\s*if\s+page_lang\s*==\s*['\"]en['\"]\s*%}[\s\S]*?site\.data\[['\"]navigation-en['\"]\]\.main")
         self.assertRegex(masthead, r"{%\s*else\s*%}[\s\S]*?site\.data\.navigation\.main")
-        switch_match = re.search(r"<a\b[^>]*class\s*=\s*['\"][^'\"]*\blanguage-switch\b[^'\"]*['\"][^>]*>[\s\S]*?</a>", masthead)
-        self.assertIsNotNone(switch_match, "masthead must emit a language-switch anchor")
-        if switch_match is None:
-            return
-        switch = switch_match.group(0)
-        self.assertRegex(switch, r"href\s*=\s*['\"][^'\"]*\{\{\s*page\.alternate_url\b[^}]*\}\}")
-        self.assertRegex(switch, r"hreflang\s*=\s*['\"][^'\"]+['\"]")
-        self.assertRegex(switch, r"aria-label\s*=\s*['\"]\{\{\s*locale\.switch_label\b[^}]*\}\}")
+        self.assertRegex(masthead, r"class\s*=\s*['\"]language-selector['\"][^>]*role\s*=\s*['\"]group['\"][^>]*aria-label\s*=\s*['\"]\{\{\s*locale\.language_selector_label\b[^}]*\}\}")
+        self.assertEqual(2, len(re.findall(r"aria-current\s*=\s*['\"]page['\"]", masthead)), "each rendered branch needs one current-language choice")
+        alternate_links = re.findall(r"<a\b[^>]*class\s*=\s*['\"][^'\"]*language-selector__choice[^'\"]*['\"][^>]*page\.alternate_url[^>]*>", masthead)
+        self.assertEqual(2, len(alternate_links), "each locale branch needs a real alternate-language anchor")
+        for link in alternate_links:
+            self.assertRegex(link, r"\|\s*relative_url")
+            self.assertRegex(link, r"hreflang\s*=\s*['\"][^'\"]+['\"]")
+            self.assertRegex(link, r"aria-label\s*=\s*['\"]\{\{\s*locale\.switch_label\b[^}]*\}\}")
+        self.assertRegex(masthead, r">\s*中文\s*</a>")
+        self.assertRegex(masthead, r">\s*EN\s*</a>")
+        self.assertRegex(masthead, r"language-selector__separator[^>]*>\s*\|\s*<")
+        styles = active_source(ROOT / "assets" / "css" / "main.scss")
+        self.assertRegex(styles, r"\.language-selector__choice\.is-current\b")
+
+    def test_templates_localize_navigation_toggle_logo_and_email(self):
+        masthead = active_source(ROOT / "_includes" / "masthead.html")
+        self.assertRegex(masthead, r"<button\b[^>]*aria-label\s*=\s*['\"]\{\{\s*locale\.toggle_navigation_label\b[^}]*\}\}")
+        self.assertRegex(masthead, r"<img\b[^>]*alt\s*=\s*['\"]\{\{\s*locale\.logo_alt\b[^}]*\}\}")
+        profile = active_source(ROOT / "_includes" / "author-profile.html")
+        self.assertRegex(profile, r"fa-envelope[\s\S]*?\{\{\s*locale\.email_label\b[^}]*\}\}")
 
     def test_profile_interpolates_localized_fields_and_keeps_shared_author_contacts(self):
         profile = active_source(ROOT / "_includes" / "author-profile.html")
@@ -333,6 +380,38 @@ class BilingualContractTest(unittest.TestCase):
         inline = re.search(r"lang\s*=\s*['\"]\{\{\s*page\.lang\s*\|\s*default\s*:\s*['\"]zh-CN['\"]\s*\}\}", attrs)
         assigned = re.search(r"{%\s*assign\s+(\w+)\s*=\s*page\.lang\s*\|\s*default\s*:\s*['\"]zh-CN['\"]\s*%}", layout)
         self.assertTrue(inline or (assigned and re.search(rf"lang\s*=\s*['\"]\{{\{{\s*{assigned.group(1)}\s*\}}\}}", attrs)), "html lang must use page.lang or a page-derived fallback variable")
+
+    def test_seo_localizes_title_description_and_open_graph_metadata(self):
+        seo = active_source(ROOT / "_includes" / "seo.html")
+        self.assertRegex(seo, r"{%\s*assign\s+seo_title\s*=\s*page\.title\s*\|\s*default\s*:\s*site\.title")
+        self.assertRegex(seo, r"<title>\s*\{\{\s*seo_title\s*\}\}\s*</title>")
+        self.assertRegex(seo, r"<meta\b[^>]*name\s*=\s*['\"]description['\"][^>]*content\s*=\s*['\"]\{\{\s*seo_description\s*\}\}")
+        self.assertIn('"zh_CN"', seo)
+        self.assertIn('"en_US"', seo)
+        self.assertRegex(seo, r"<meta\b[^>]*property\s*=\s*['\"]og:locale['\"][^>]*content\s*=\s*['\"]\{\{\s*seo_locale\s*\}\}")
+        self.assertRegex(seo, r"<meta\b[^>]*property\s*=\s*['\"]og:title['\"][^>]*content\s*=\s*['\"]\{\{\s*seo_title\s*\}\}")
+        self.assertRegex(seo, r"<meta\b[^>]*property\s*=\s*['\"]og:description['\"][^>]*content\s*=\s*['\"]\{\{\s*seo_description\s*\}\}")
+
+    def test_profile_and_education_images_have_localized_accessible_names(self):
+        for name, language in (("about.md", "zh-CN"), ("about-en.md", "en")):
+            page = active_source(ROOT / "_pages" / name)
+            scholar = re.search(r"<a\b(?P<attrs>[^>]*scholar\.google\.com[^>]*)>(?P<body>[\s\S]*?)</a>", page)
+            self.assertIsNotNone(scholar, f"{name} needs a Scholar link")
+            if scholar is not None:
+                label = re.search(r"aria-label\s*=\s*['\"]([^'\"]+)['\"]", scholar.group("attrs"))
+                image_alt = re.search(r"<img\b[^>]*alt\s*=\s*['\"]([^'\"]+)['\"]", scholar.group("body"))
+                self.assertIsNotNone(label, f"{name} Scholar link needs an accessible name")
+                self.assertIsNotNone(image_alt, f"{name} Scholar badge needs alt text")
+                values = [match.group(1) for match in (label, image_alt) if match]
+                for value in values:
+                    self.assertRegex(value, r"[\u3400-\u9fff]" if language == "zh-CN" else r"[A-Za-z]")
+                    if language == "en":
+                        self.assertNotRegex(value, r"[\u3400-\u9fff]")
+            education_logos = re.findall(r"<a\b(?P<attrs>[^>]*)>\s*<img\b(?P<img>[^>]*src=['\"]/images/(?:ucf|bsu)\.png['\"][^>]*)>\s*</a>", page)
+            self.assertEqual(3, len(education_logos), f"{name} must retain three education logos")
+            for link_attrs, image_attrs in education_logos:
+                self.assertRegex(link_attrs, r"aria-label\s*=\s*['\"][^'\"]+['\"]")
+                self.assertRegex(image_attrs, r"alt\s*=\s*['\"][^'\"]+['\"]")
 
     def test_seo_include_emits_real_language_alternate_pairings(self):
         seo = active_source(ROOT / "_includes" / "seo.html")

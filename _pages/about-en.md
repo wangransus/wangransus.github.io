@@ -21,7 +21,7 @@ author_profile: true
   - Professor of Physical Education and Training.
   - Supervisor of doctoral and master's students.
   - Program director for Strength and Conditioning.
-- My research <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a> addresses practical challenges in sport training through:
+- My research <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en' aria-label="View Ran Wang citations on Google Scholar"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Google Scholar citation badge"></a> addresses practical challenges in sport training through:
   - Sport performance testing and assessment
   - Training-load planning and monitoring
   - Coaching strategies for sport training
@@ -44,9 +44,9 @@ author_profile: true
 <span class='anchor' id='-jybj'></span>
 
 # 🎓 Education
-- *2013.08 - 2017.05*: <a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="25pt"></a> University of Central Florida, PhD in Exercise Physiology, with a concentration in Strength and Conditioning. Advisors: [Jay Hoffman](https://www.researchgate.net/profile/Jay-Hoffman-4) and [David Fukuda](https://www.researchgate.net/profile/David-Fukuda).
-- *2010.09 - 2013.06*: <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> Beijing Sport University, master's degree in Sport Science, with a concentration in Sports Training Monitoring. Advisors: [Yang Hu](https://xueshu.baidu.com/scholarID/CN-BD75D4RJ) and [Junqiang Qiu](https://xueshu.baidu.com/scholarID/CN-BK75KUNJ).
-- *2006.09 - 2010.06*: <a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> Beijing Sport University, bachelor's degree in Sport Science, with a concentration in Exercise Function Assessment. Advisor: [Yanchun Li](https://xueshu.baidu.com/scholarID/CN-BT74YKOJ).
+- *2013.08 - 2017.05*: <a href="https://www.ucf.edu/" aria-label="University of Central Florida website"><img class="svg" src="/images/ucf.png" width="25pt" alt="University of Central Florida logo"></a> University of Central Florida, PhD in Exercise Physiology, with a concentration in Strength and Conditioning. Advisors: [Jay Hoffman](https://www.researchgate.net/profile/Jay-Hoffman-4) and [David Fukuda](https://www.researchgate.net/profile/David-Fukuda).
+- *2010.09 - 2013.06*: <a href="https://www.bsu.edu.cn/" aria-label="Beijing Sport University website"><img class="svg" src="/images/bsu.png" width="25pt" alt="Beijing Sport University logo"></a> Beijing Sport University, master's degree in Sport Science, with a concentration in Sports Training Monitoring. Advisors: [Yang Hu](https://xueshu.baidu.com/scholarID/CN-BD75D4RJ) and [Junqiang Qiu](https://xueshu.baidu.com/scholarID/CN-BK75KUNJ).
+- *2006.09 - 2010.06*: <a href="https://www.bsu.edu.cn/" aria-label="Beijing Sport University website"><img class="svg" src="/images/bsu.png" width="25pt" alt="Beijing Sport University logo"></a> Beijing Sport University, bachelor's degree in Sport Science, with a concentration in Exercise Function Assessment. Advisor: [Yanchun Li](https://xueshu.baidu.com/scholarID/CN-BT74YKOJ).
 
 <span class='anchor' id='-kycg'></span>
 

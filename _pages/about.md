@@ -24,7 +24,7 @@ redirect_from:
   - 体育教育训练学教授
   - 博士硕士研究生导师
   - 体能训练专业负责人
-- 我的研究工作 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a> 致力于解决运动训练实践中的问题： 
+- 我的研究工作 <a href='https://scholar.google.com/citations?user=2zkUJHAAAAAJ&hl=en' aria-label="在 Google Scholar 查看王然的引用"><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用" alt="Google Scholar 引用徽章"></a> 致力于解决运动训练实践中的问题：
   - 运动表现测试与评估
   - 训练负荷安排与监控
   - 运动训练的执教策略
@@ -47,9 +47,9 @@ redirect_from:
 <span class='anchor' id='-jybj'></span>
 
 # 🎓 教育背景
-- *2013.08 - 2017.05*：<a href="https://www.ucf.edu/"><img class="svg" src="/images/ucf.png" width="25pt"></a> 中佛罗里达大学 运动生理学博士 体能训练方向（导师：[Jay Hoffman](https://www.researchgate.net/profile/Jay-Hoffman-4)、[David Fukuda](https://www.researchgate.net/profile/David-Fukuda)）
-- *2010.09 - 2013.06*：<a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> 北京体育大学 运动人体科学硕士 运动训练监控方向（导师：[胡扬](https://xueshu.baidu.com/scholarID/CN-BD75D4RJ)、[邱俊强](https://xueshu.baidu.com/scholarID/CN-BK75KUNJ)）
-- *2006.09 - 2010.06*：<a href="https://www.bsu.edu.cn/"><img class="svg" src="/images/bsu.png" width="25pt"></a> 北京体育大学 运动人体科学学士 运动机能评定方向（导师：[李燕春](https://xueshu.baidu.com/scholarID/CN-BT74YKOJ)）
+- *2013.08 - 2017.05*：<a href="https://www.ucf.edu/" aria-label="访问中佛罗里达大学网站"><img class="svg" src="/images/ucf.png" width="25pt" alt="中佛罗里达大学校徽"></a> 中佛罗里达大学 运动生理学博士 体能训练方向（导师：[Jay Hoffman](https://www.researchgate.net/profile/Jay-Hoffman-4)、[David Fukuda](https://www.researchgate.net/profile/David-Fukuda)）
+- *2010.09 - 2013.06*：<a href="https://www.bsu.edu.cn/" aria-label="访问北京体育大学网站"><img class="svg" src="/images/bsu.png" width="25pt" alt="北京体育大学校徽"></a> 北京体育大学 运动人体科学硕士 运动训练监控方向（导师：[胡扬](https://xueshu.baidu.com/scholarID/CN-BD75D4RJ)、[邱俊强](https://xueshu.baidu.com/scholarID/CN-BK75KUNJ)）
+- *2006.09 - 2010.06*：<a href="https://www.bsu.edu.cn/" aria-label="访问北京体育大学网站"><img class="svg" src="/images/bsu.png" width="25pt" alt="北京体育大学校徽"></a> 北京体育大学 运动人体科学学士 运动机能评定方向（导师：[李燕春](https://xueshu.baidu.com/scholarID/CN-BT74YKOJ)）
 
 <span class='anchor' id='-kycg'></span>
 
