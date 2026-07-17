@@ -85,6 +85,15 @@ EXPECTED_CITATION_SHA256 = [
     "d58494c0a81aa928a4503e00fedd8e52ac6015a01628e080cd8ca6d2f29b9f90",
     "9d0e28fbb7c37a5c5b83ad1eec81d1a33de60d3cc51075d32c193a5253b9170b",
 ]
+
+
+def active_source(path):
+    text = path.read_text(encoding="utf-8")
+    text = re.sub(r"{%\s*comment\s*%}[\s\S]*?{%\s*endcomment\s*%}", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\{#[\s\S]*?#\}", "", text)
+    return re.sub(r"<!--[\s\S]*?-->", "", text)
+
+
 HIGHLIGHTED_WANG_MARKDOWN = re.compile(
     r"(?:`[^`]*(?:Wang|\u738b\u7136)[^`]*`|\*\*[^*]*(?:Wang|\u738b\u7136)[^*]*\*\*)"
 )
@@ -159,12 +168,12 @@ class PublicationsContractTest(unittest.TestCase):
                 self.assertTrue((ROOT / asset_path.lstrip("/")).is_file())
 
     def test_about_page_includes_publications_once(self):
-        about = ABOUT_PATH.read_text(encoding="utf-8")
+        about = active_source(ABOUT_PATH)
 
         self.assertEqual(1, about.count("{% include publications.html %}"))
 
     def test_about_page_has_no_hand_written_publication_boxes(self):
-        about = ABOUT_PATH.read_text(encoding="utf-8")
+        about = active_source(ABOUT_PATH)
 
         self.assertNotIn("paper-box", about)
 
@@ -173,7 +182,7 @@ class PublicationsContractTest(unittest.TestCase):
         if not INCLUDE_PATH.is_file():
             return
 
-        include = INCLUDE_PATH.read_text(encoding="utf-8")
+        include = active_source(INCLUDE_PATH)
         loop_match = re.search(
             r"{%\s*for\s+publication\s+in\s+site\.data\.publications\s*%}"
             r"(?P<body>.*?)"
