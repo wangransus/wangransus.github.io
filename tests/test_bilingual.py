@@ -12,7 +12,8 @@ REQUIRED_LOCALE_KEYS = {
     "switch_label", "publications_label", "article_label",
     "download_label", "navigation_label", "contact_label",
     "language_selector_label", "toggle_navigation_label", "logo_alt",
-    "email_label",
+    "email_label", "researchgate_label", "scholar_label", "orcid_label",
+    "footer_copyright",
 }
 CONTACT_KEYS = ("googlescholar", "email", "researchgate", "uri")
 BILINGUAL_IMPLEMENTATION_FILES = (
@@ -332,6 +333,7 @@ class BilingualContractTest(unittest.TestCase):
             self.assertRegex(link, r"\|\s*relative_url")
             self.assertRegex(link, r"hreflang\s*=\s*['\"][^'\"]+['\"]")
             self.assertRegex(link, r"aria-label\s*=\s*['\"]\{\{\s*locale\.switch_label\b[^}]*\}\}")
+            self.assertRegex(link, r"target\s*=\s*['\"]_self['\"]")
         self.assertRegex(masthead, r">\s*中文\s*</a>")
         self.assertRegex(masthead, r">\s*EN\s*</a>")
         self.assertRegex(masthead, r"language-selector__separator[^>]*>\s*\|\s*<")
@@ -355,6 +357,36 @@ class BilingualContractTest(unittest.TestCase):
         self.assertRegex(profile, r"{%\s*assign\s+author\s*=\s*site\.author\s*%}")
         self.assertRegex(profile, r"author\.avatar")
         self.assertRegex(profile, r"author\.(?:email|uri|github|researchgate|googlescholar)")
+
+    def test_configured_compact_contact_icons_have_localized_accessible_names(self):
+        profile = active_source(ROOT / "_includes" / "author-profile.html")
+        compact = re.search(r"<div\b[^>]*class\s*=\s*['\"]author__urls_sm['\"][^>]*>([\s\S]*?)</div>", profile)
+        self.assertIsNotNone(compact, "profile needs a compact contact block")
+        if compact is None:
+            return
+        config = self.assert_yaml_document(ROOT / "_config.yml", dict) or {}
+        author = config.get("author", {}) if isinstance(config, dict) else {}
+        locale_keys = {
+            "email": "email_label",
+            "researchgate": "researchgate_label",
+            "googlescholar": "scholar_label",
+            "orcid": "orcid_label",
+        }
+        configured = set()
+        for key, body in re.findall(r"{%\s*if\s+author\.(\w+)\s*%}([\s\S]*?){%\s*endif\s*%}", compact.group(1)):
+            if not isinstance(author, dict) or not author.get(key):
+                continue
+            configured.add(key)
+            anchor = re.search(r"<a\b[^>]*>[\s\S]*?</a>", body)
+            self.assertIsNotNone(anchor, f"configured compact contact {key} needs an anchor")
+            if anchor is not None:
+                self.assertRegex(anchor.group(0), r"aria-label\s*=\s*['\"][^'\"]+['\"]", f"configured compact contact {key} needs an accessible name")
+        self.assertEqual(set(locale_keys), configured)
+        for key, locale_key in locale_keys.items():
+            block = re.search(rf"{{%\s*if\s+author\.{key}\s*%}}([\s\S]*?){{%\s*endif\s*%}}", compact.group(1))
+            self.assertIsNotNone(block)
+            if block is not None:
+                self.assertRegex(block.group(1), rf"aria-label\s*=\s*['\"]\{{\{{\s*locale\.{locale_key}\b[^}}]*\}}\}}")
 
     def test_publications_localizes_attributes_and_links_inside_real_loop(self):
         publications = active_source(ROOT / "_includes" / "publications.html")
@@ -380,6 +412,19 @@ class BilingualContractTest(unittest.TestCase):
         inline = re.search(r"lang\s*=\s*['\"]\{\{\s*page\.lang\s*\|\s*default\s*:\s*['\"]zh-CN['\"]\s*\}\}", attrs)
         assigned = re.search(r"{%\s*assign\s+(\w+)\s*=\s*page\.lang\s*\|\s*default\s*:\s*['\"]zh-CN['\"]\s*%}", layout)
         self.assertTrue(inline or (assigned and re.search(rf"lang\s*=\s*['\"]\{{\{{\s*{assigned.group(1)}\s*\}}\}}", attrs)), "html lang must use page.lang or a page-derived fallback variable")
+
+    def test_default_layout_localizes_footer_copyright(self):
+        layout = active_source(ROOT / "_layouts" / "default.html")
+        page_lang, locale = locale_contract(layout)
+        self.assertRegex(layout, page_lang)
+        self.assertRegex(layout, locale)
+        footer = re.search(r"<div\b[^>]*class\s*=\s*['\"]footer_copyright['\"][^>]*>([\s\S]*?)</div>", layout)
+        self.assertIsNotNone(footer)
+        if footer is not None:
+            self.assertRegex(footer.group(1), liquid_value("locale.footer_copyright"))
+        locales = self.assert_yaml_document(ROOT / "_data" / "locales.yml", dict) or {}
+        self.assertEqual("© 2022 上海体育大学 · 王然", locales.get("zh-CN", {}).get("footer_copyright"))
+        self.assertEqual("© 2022 Shanghai University of Sport · Ran Wang", locales.get("en", {}).get("footer_copyright"))
 
     def test_seo_localizes_title_description_and_open_graph_metadata(self):
         seo = active_source(ROOT / "_includes" / "seo.html")

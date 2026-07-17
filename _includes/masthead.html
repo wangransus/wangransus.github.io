@@ -24,13 +24,13 @@
           <li class="masthead__menu-item masthead__menu-item--language">
             <span class="language-selector" role="group" aria-label="{{ locale.language_selector_label | escape }}">
               {% if page_lang == "en" %}
-                <a class="language-selector__choice" href="{{ page.alternate_url | default: '/' | relative_url }}" hreflang="zh-CN" aria-label="{{ locale.switch_label | escape }}">中文</a>
+                <a class="language-selector__choice" href="{{ page.alternate_url | default: '/' | relative_url }}" hreflang="zh-CN" aria-label="{{ locale.switch_label | escape }}" target="_self">中文</a>
                 <span class="language-selector__separator" aria-hidden="true">|</span>
-                <a class="language-selector__choice is-current" href="{{ page.url | relative_url }}" aria-current="page">EN</a>
+                <a class="language-selector__choice is-current" href="{{ page.url | relative_url }}" aria-current="page" target="_self">EN</a>
               {% else %}
-                <a class="language-selector__choice is-current" href="{{ page.url | relative_url }}" aria-current="page">中文</a>
+                <a class="language-selector__choice is-current" href="{{ page.url | relative_url }}" aria-current="page" target="_self">中文</a>
                 <span class="language-selector__separator" aria-hidden="true">|</span>
-                <a class="language-selector__choice" href="{{ page.alternate_url | default: '/en/' | relative_url }}" hreflang="en" aria-label="{{ locale.switch_label | escape }}">EN</a>
+                <a class="language-selector__choice" href="{{ page.alternate_url | default: '/en/' | relative_url }}" hreflang="en" aria-label="{{ locale.switch_label | escape }}" target="_self">EN</a>
               {% endif %}
             </span>
           </li>

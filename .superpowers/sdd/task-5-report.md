@@ -6,6 +6,7 @@
 - Localized page and Open Graph SEO metadata while preserving canonical, social, and reciprocal hreflang tags.
 - Replaced the one-choice language link with a visible `中文 | EN` selector that exposes the current page with `aria-current="page"` and keeps the alternate as a real link.
 - Localized the navigation toggle, university logo alt text, and email label, and added bilingual accessible names to the Scholar badge and education logos.
+- Forced language-selector navigation to stay in the current tab despite the global `<base target="_blank">`, added locale-aware names to every configured compact contact icon, and localized the footer copyright.
 - Preserved routes, navigation entries, publication data, and page facts. Both navigation datasets still contain seven links.
 
 ## TDD Evidence
@@ -26,6 +27,22 @@ python -B -m unittest tests/test_bilingual.py tests/test_publications.py -v
 
 Result: 21 tests ran and all 21 passed.
 
+Final-review follow-up RED command:
+
+```powershell
+python -B -m unittest -v tests.test_bilingual.BilingualContractTest.test_locale_data_has_required_locales_and_non_empty_display_strings tests.test_bilingual.BilingualContractTest.test_masthead_has_localized_navigation_and_two_choice_language_selector tests.test_bilingual.BilingualContractTest.test_configured_compact_contact_icons_have_localized_accessible_names tests.test_bilingual.BilingualContractTest.test_default_layout_localizes_footer_copyright
+```
+
+Result: 4 tests ran and all 4 failed for the intended remaining gaps: missing locale keys, missing `_self` targets, unnamed compact contact icons, and static Chinese footer text.
+
+Final-review follow-up GREEN command:
+
+```powershell
+python -B -m unittest tests/test_bilingual.py tests/test_publications.py -v
+```
+
+Result: 23 tests ran and all 23 passed.
+
 `git diff --check` also exited 0. The reachable include graph continues through the Liquid-based main script URL to scan `assets/js/_main.js`, and the forbidden client-side language/redirect/persistence/flag scan found no matches.
 
 ## Build Limitation
@@ -34,4 +51,6 @@ Result: 21 tests ran and all 21 passed.
 
 ## Commit
 
-Commit subject: `Fix bilingual route assets and localization gaps`
+Initial commit subject: `Fix bilingual route assets and localization gaps`
+
+Follow-up commit subject: `Finish bilingual navigation and accessibility`

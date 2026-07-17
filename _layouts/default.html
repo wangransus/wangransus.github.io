@@ -2,8 +2,10 @@
 layout: compress
 ---
 
+{% assign page_lang = page.lang | default: "zh-CN" %}
+{% assign locale = site.data.locales[page_lang] | default: site.data.locales["zh-CN"] %}
 <!doctype html>
-<html lang="{{ page.lang | default: 'zh-CN' }}" class="no-js">
+<html lang="{{ page_lang }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -32,7 +34,7 @@ layout: compress
 <div class="footer_site">
 <hr/>
 <div class="footer_copyright">
-  © 2022 上海体育大学 · 王然
+  {{ locale.footer_copyright | escape }}
 
 </div>
 </div>
