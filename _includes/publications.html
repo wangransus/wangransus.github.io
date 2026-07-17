@@ -1,21 +1,19 @@
-<div class="publications" aria-label="科研成果列表">
+<section class="publications" aria-label="科研成果列表">
   {% for publication in site.data.publications %}
-    {% capture image_url %}{{ publication.image }}{% endcapture %}
-    {% capture pdf_url %}{{ publication.pdf_url }}{% endcapture %}
     <article class="paper-box">
       <div class="paper-box-image">
         <div>
-          <div class="badge">{{ publication.badge }}</div>
-          <img src="{{ image_url | relative_url }}" alt="{{ publication.image_alt }}" loading="lazy">
+          <div class="badge">{{ publication.badge | escape }}</div>
+          <img src="{{ publication.image | relative_url | escape }}" alt="{{ publication.image_alt | escape }}" loading="lazy">
         </div>
       </div>
       <div class="paper-box-text">
         {{ publication.citation | markdownify }}
         <p class="paper-box-links">
-          <a href="{{ publication.web_url }}">网页</a>
-          <a href="{{ pdf_url | relative_url }}">下载</a>
+          <a href="{{ publication.web_url | escape }}">网页</a>
+          <a href="{{ publication.pdf_url | relative_url | escape }}">下载</a>
         </p>
       </div>
     </article>
   {% endfor %}
-</div>
+</section>
