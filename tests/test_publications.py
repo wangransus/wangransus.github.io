@@ -186,7 +186,10 @@ class PublicationsContractTest(unittest.TestCase):
             return
 
         loop_body = loop_match.group("body")
-        self.assertRegex(include, r'<section\s+class=["\']publications["\']\s+aria-label=["\']\u79d1\u7814\u6210\u679c\u5217\u8868["\']>')
+        self.assertRegex(
+            include,
+            r'<section\s+class=["\']publications["\']\s+aria-label=["\']\{\{\s*locale\.publications_label\b[^}]*\}\}["\']>',
+        )
         self.assertTrue(include.rstrip().endswith("</section>"))
         for field, filters in (
             ("badge", r"\|\s*escape"),
