@@ -61,29 +61,30 @@ def active_source(path):
     return strip_comments(read_utf8(path))
 
 
-def loaded_script_sources():
-    root = ROOT / "_includes" / "scripts.html"
-    paths = {root}
-    queue = [root]
+def reached_template_and_script_sources():
+    template_paths = {ROOT / "_layouts" / "default.html"}
+    script_paths = set()
+    queue = list(template_paths)
     while queue:
         path = queue.pop()
         source = active_source(path)
         for include_name in re.findall(r"{%\s*include\s+([^\s%]+)", source):
             include_path = ROOT / "_includes" / include_name
-            if include_path.is_file() and include_path not in paths:
-                paths.add(include_path)
+            if include_path.is_file() and include_path not in template_paths:
+                template_paths.add(include_path)
                 queue.append(include_path)
         for source_url in re.findall(r"<script\b[^>]*\bsrc\s*=\s*['\"]([^'\"]+)", source, re.IGNORECASE):
             if re.match(r"(?:[a-z]+:)?//", source_url, re.IGNORECASE):
                 continue
             local_path = ROOT / source_url.lstrip("/")
-            if local_path.is_file() and local_path not in paths:
-                paths.add(local_path)
-                queue.append(local_path)
+            if local_path.is_file():
+                script_paths.add(local_path)
+    # _main.js is the readable source paired with the loaded main.min.js bundle.
+    main_bundle = ROOT / "assets" / "js" / "main.min.js"
     main_source = ROOT / "assets" / "js" / "_main.js"
-    if main_source.is_file():
-        paths.add(main_source)
-    return sorted(paths)
+    if main_bundle in script_paths and main_source.is_file():
+        script_paths.add(main_source)
+    return sorted(template_paths), sorted(script_paths)
 
 
 def load_front_matter(path):
@@ -266,11 +267,10 @@ class BilingualContractTest(unittest.TestCase):
             text = active_source(path)
             for token in FORBIDDEN_CLIENT_SIDE_LANGUAGE_TOKENS:
                 self.assertNotRegex(text, token, f"{relative_path} must not use {token}")
-        script_paths = loaded_script_sources()
-        self.assertIn(ROOT / "_includes" / "scripts.html", script_paths)
-        self.assertIn(ROOT / "assets" / "js" / "_main.js", script_paths)
-        for path in script_paths:
-            self.assertTrue(path.is_file(), f"loaded script source must exist: {path.relative_to(ROOT)}")
+        template_paths, script_paths = reached_template_and_script_sources()
+        self.assertIn(ROOT / "_layouts" / "default.html", template_paths)
+        for path in template_paths + script_paths:
+            self.assertTrue(path.is_file(), f"reached source must exist: {path.relative_to(ROOT)}")
             text = active_source(path)
             for token in FORBIDDEN_LANGUAGE_LOGIC_TOKENS:
                 self.assertNotRegex(text, token, f"{path.relative_to(ROOT)} must not use {token}")
