@@ -30,3 +30,14 @@ Post-implementation result: 17 tests run; all Task 3 page, parity, publication, 
 - `test_seo_include_emits_real_language_alternate_pairings`
 
 Focused Task 3 verification ran the two page contracts and all five publication contracts: 7 tests passed with no failures.
+
+## Review Amendment
+
+The English page terminology was refined after review:
+
+- Replaced the project and sponsor wording with `Shanghai Sailing Program`, `Eliga Sports Technology Co., Ltd.`, `Huawei Device Co., Ltd.`, and the reviewed winter speed-events title.
+- Corrected degree names and concentrations, including singular `Sport Science` and `Sports Training Monitoring`.
+- Updated the specially appointed roles, doctoral/master's supervision sentence, JFMK article, and professional master's program wording.
+- Rechecked surrounding Markdown and punctuation without changing facts, anchors, dates, amounts, URLs, names, or section order.
+
+Review verification retained one known contract mismatch in addition to the two pending Task 4 failures. The current test still requires the superseded `Sports Science` wording and also contains the old project sponsor markers; tests were not edited because they are outside Task 3 review scope. The focused run completed 7 tests with 6 passing and the stale fact-marker test failing. The full relevant run completed 17 tests with 14 passing and three failures: the stale fact-marker test plus the two pending Task 4 document-language and hreflang tests.
